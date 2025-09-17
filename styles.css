@@ -1,0 +1,78 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header and Navigation */
+.header {
+  background: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Intro Section */
+.intro {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  background: #eaf4ff;
+  padding: 15px;
+  border: 2px solid #4a90e2;
+  border-radius: 6px;
+  margin: 10px;
+  width: 40%;
+  box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+/* Button Styling */
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 20px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #357abd;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
